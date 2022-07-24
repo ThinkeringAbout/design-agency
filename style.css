@@ -13,6 +13,10 @@ body {
     width: 100%;
 }
 
+section {
+    overflow: hidden;
+}
+
 .hero {
     min-height: 100vh;
     display: flex;
@@ -237,4 +241,105 @@ h1 {
 img {
     width: inherit;
     height: inherit;
+}
+
+.solutions {
+    min-height: 100vh;
+    width: 100%;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.solution-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-image {
+    width: 95px;
+    height: 95px;
+    border: none;
+    border-radius: 15px;
+    background-color: #D7F5DC;
+}
+
+.upper h2 {
+    text-transform: uppercase;
+    color: #20B15A;
+    font-weight: normal;
+}
+
+.upper h3 {
+    font-size: 30px;
+    line-height: 45px;
+    width: 495px;
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+}
+
+.card p {
+    width: 300px;
+    margin: 10px 0;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card a {
+    margin-top: 50px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.values {
+    width: 60%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.value-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.value-card p {
+    margin-top: 10px;
+}
+
+.values img {
+    width: 70px;
+    height: 70px;
+}
+
+.green {
+    text-transform: uppercase;
+    color: #20B15A;
+    font-size: 40px;
+    font-weight: bold;
 }
