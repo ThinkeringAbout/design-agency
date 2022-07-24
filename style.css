@@ -24,10 +24,11 @@ body {
     margin-top: 25px;
     height: 80px;
     display: flex;
-    align-items: stretch;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
     padding: 0 100px;
+    text-align: center;
 }
 
 .hero-content {
@@ -45,7 +46,7 @@ body {
     margin-right: 100px;
     display: flex;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .hero-text {
@@ -68,6 +69,10 @@ body {
     background-color: #fff;
     position: relative;
     margin-top: -63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 h1 {
@@ -125,11 +130,27 @@ h1 {
 
 .login {
     background: none;
+    transition: 0.4s ease;
+}
+
+.login:hover {
+    background-color: #20B15A;
+    color:#fff;
+    transition: 0.4s ease;
+    cursor: pointer;
 }
 
 .register {
     background-color: #20B15A;
     color: #fff;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.register:hover {
+    background: none;
+    color:black;
+    transition: 0.4s ease;
 }
 
 .box {
@@ -206,4 +227,14 @@ h1 {
 .box-num3 {
     left: 400px;
     top: 150px;
+}
+
+.partner {
+    width: 150px;
+    height: auto;
+}
+
+img {
+    width: inherit;
+    height: inherit;
 }
